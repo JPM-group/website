@@ -5,15 +5,214 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Site</title>
+  <!-- Boostrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- CSS -->
   <link rel="stylesheet" href="./style.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <div class="body">
-    <!-- introduction -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded menu" aria-label="Thirteenth navbar example">
+    <div class="container-fluid my-0 pe-0">
+      <button class="navbar-toggler collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>        
 
+      <a class="navbar-brand col-lg-3" href="#">
+          <!-- Centered nav -->
+          <img src="./asset/JPM logo_font 1.png" height="50"/>
+      </a>
+
+      <div class="navbar-collapse d-lg-flex collapse" id="navbarsExample11">
+        <ul class="navbar-nav col-lg-8 justify-content-lg-evenly" style="font-size:1.4rem;">
+          <li class="nav-item ">
+            <a class="nav-link" aria-current="page" href="#">หน้าหลัก</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#service">บริการ</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#projects">ผลงาน</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#about">เกี่ยวกับเรา</a>
+          </li>
+        </ul>
+        <div class="col-lg-3"></div>
+        <div class="d-lg-flex col-lg-1 justify-content-lg-end">
+          <a href="#contact">
+            <button class="btn button-color button-size">ติดต่อ</button>
+          </a>     
+        </div>
+      </div>
+    </div>
+  </nav> 
+
+  <!-- Home -->
+  <div class="grid-container">
+    <div class="text-home">
+      <h1 class="featurette-heading fw-bold text-uppercase align-items-tart " style="font-size:6vw;">Service your imaginations</h1>
+      <br>
+      <h3 style="font-size:2vw;">ALL THING ARE POSSIBLE</h3>
+      <a href="#contact">
+        <button class="btn button-color button-size" >ติดต่อ</button>
+      </a>  
+      <!-- <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p> -->
+    </div>
+    
+    <div class="img-home">
+      <img src="./asset/pic p.1.png" width="75%"/>
+    </div>
   </div>
+
+  <!-- Home description-->
+  <div class="home-description">
+    <p>เราให้บริการสร้างเว็บไซต์ จัดทำเว็บไซต์ ออกแบบเว็บไซต์ รับทำเว็บไซต์ Wordpress รับทำ Sale Page รับจ้างทำเว็บไซต์ ที่รองรับ SEO ให้กับทุกธุรกิจ องค์กร
+      <br> ภาครัฐและเอกชน ทั่วประเทศ ทั้งขนาดเล็ก กลางใหญ่ และนอกจากนี้เรายังรับทำโฆษณา ผ่าน Google Ads, Facebook Ads  
+      <br>โดยทีมงานมืออาชีพประสบการณ์มากกว่า 100 ป
+      <br>หากคุณสนใจสามารถติดต่อได้ที่
+      <br>LINE ID:@jhahodna |  โทร. 00000000
+    </p>
+  </div>
+
+  <!-- Service -->
+  <div id="service" class="service button-color">
+    <div class="service-text px-5 ms-5">
+      <h2 class="ms-5" style="font-size:4vw;">บริการของเรา</h2>
+      <p class="mt-3" style="font-size:1.5vw; margin-top: 3%;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa numquam neque voluptatum impedit animi alias nostrum ducimus tenetur maxime pariatur odit molestiae reiciendis amet, earum obcaecati tempora est? Consequuntur, voluptas?</p>
+    </div>
+    <div class="service-block p-5">
+      <div class="service-img">
+        <img src="./asset/images.jfif" width="90%" height="auto"/>
+        <br> <h3 style="font-size:1.5vw;">Game / Program</h3>
+        <p style="font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum, temporibus rem alias sapiente maiores dignissimos explicabo recusandae? Numquam dolorum expedita sit, iure quis nisi! Ratione necessitatibus reprehenderit aut ullam?</p>
+      </div>
+      <div class="service-img">
+        <img src="./asset/images.jfif" width="90%" height="auto"/>
+        <br> <h3 style="font-size:1.5vw;">Graphic</h3>
+        <p style="font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, deserunt ullam doloribus incidunt, assumenda repudiandae expedita consectetur suscipit natus, voluptatem at soluta amet recusandae! Maiores iure quasi iste laboriosam qui?</p>
+      </div>
+      <div class="service-img">
+        <img src="./asset/images.jfif" width="90%" height="auto"/>
+        <br> <h3 style="font-size:1.5vw;">Interactive game</h3>
+        <p style="font-size:1vw;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat autem praesentium veritatis molestias esse, sint, repellendus eius qui dicta, accusamus deleniti magnam a asperiores? Inventore hic recusandae iure! A, quisquam.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- projects -->
+  <div class="projects-page">
+    <div class="px-3 w-50">
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minima voluptas dolores dolor molestias fuga animi.</h2>
+      <p class="lead m-5">
+        <a href="#" class="btn btn-lg button-color fw-bold">Learn more</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- example -->
+  <div id="projects" class="center container"> 
+    <div class="grid-container2">
+
+      <div class="center header-example">
+        <h2>ตัวอย่างผลงานของเรา</h2>
+      </div>
+
+      <div class="center">      
+        <div class="service-img w-100 p-5">
+          <img src="./asset/images.jfif" width="100%"/>
+          </br> <h3 style="font-size:1vw;">Project 1</h3>
+          <p style="font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum</p>
+          <a href="#" class="btn button-color">Learn more</a>
+
+        </div>
+        <div class="service-img w-100 p-5">
+          <img src="./asset/images.jfif" width="100%"/>
+          <br> <h3 style="font-size:1vw;">Project 3</h3>
+          <p style="font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum</p>
+          <a href="#" class="btn button-color">Learn more</a>
+        </div>
+      </div>
+
+      <div class="overlap-block center">
+        <div class="service-img w-100 p-5">
+          <img src="./asset/images.jfif" width="100%"/>
+          <br> <h3 style="font-size:1vw;">dsadasd</h3>
+          <p style="font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum</p>
+          <a href="#" class="btn button-color">Learn more</a>
+
+        </div>
+        <div class="service-img w-100 p-5">
+          <img src="./asset/images.jfif" width="100%"/>
+          <br> <h3 style="font-size:1vw;">dsadasd</h3>
+          <p style="font-size:1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum</p>
+          <a href="#" class="btn button-color">Learn more</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <!-- about us -->
+  <div id="about" class="container">
+    <div class="row featurette h-100">
+      <div class="col-md-6 order-md-2 test2 px-5">
+        <h2 class="featurette-heading fw-normal lh-1">เกี่ยวกับเรา</h2>
+        </br>
+          <!-- <span class="text-body-secondary">See for yourself.</span> -->
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-6 order-md-1 center">
+        <img src="./asset/Frame 2.png" width="100%"/></div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <a href="#" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <img src="./asset/JPM logo_font 1.png" height="30%"/>
+          </a>
+          <p class="text-body-secondary">©2024 JMP GROUP</p>
+        </div>
+    
+        <!-- white space -->
+        <div class="col mb-3"></div>
+        <div class="col mb-3"></div>
+    
+        <div class="col mb-3">
+          <h4>ติดต่อเรา</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">โทร : 0822941541</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Line : jhahodna</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Email : JMPgroup@gmail.com</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">เปิดทำการ : 24 ชม.</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h4>Section</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">หน้าหลัก</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">บริการ</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">ผลงาน</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">เกี่ยวกับเรา</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 
 
