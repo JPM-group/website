@@ -26,8 +26,9 @@ body{
   justify-content: center;
   text-align: center;
   padding: 5%;
+  margin-top: 5%;
   height: auto;
-  font-size: 1vw;
+  font-size: calc(0.5rem + 1vw);
 }
 
 .button-size{
@@ -59,22 +60,23 @@ body{
 .service{
   display: grid;
   grid-template: 1fr 2fr / 1fr;
-  height: auto;
+  /* height: 100%; */
 }
 
 .service-text{
   /* background-color: rgb(99, 99, 102); */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  /* grid-template-rows: auto; */
   align-items: start;
-  height: auto;
+  /* height: auto; */
   margin-top: 5%;
 }
 .service-block{
   /* background-color: rgb(140, 140, 177); */
   display: flex;
   justify-content: center;
+  /* padding-bottom: 15%; */
 }
 
 .service-img{
