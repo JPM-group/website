@@ -13,7 +13,7 @@ body{
 .grid-container{
   display: grid;
   grid-template: 1fr/1fr 1fr;
-  height: fit-content;
+  height: auto;
   padding-top: 60px;
   /* margin-top: 60px; */
 }
