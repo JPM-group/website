@@ -1,6 +1,12 @@
-body{
-  font-family: "Noto Sans Thai", sans-serif;
-  /* height: 100vh; */
+.th-font{
+  font-family: "Prompt", sans-serif;
+  font-style: normal;
+}
+
+.en-font{
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .menu{
