@@ -131,7 +131,7 @@ function onClick(element) {
   }
 
   function onClick2(element) {
-      document.getElementById("img01").src = "./asset/images/LinePop.png";
+      document.getElementById("img01").src = "../asset/images/LinePop.png";
       document.getElementById("modal01").style.display = "block";
       
     }
